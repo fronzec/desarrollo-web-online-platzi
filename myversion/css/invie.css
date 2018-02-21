@@ -1,3 +1,53 @@
-body{
+body {
     background: peru;
 }
+
+/*
+tipo de selector {
+    propiedad1 :valor;
+    propiedad2 : valor;
+}*/
+
+/*Selector Universal*/
+* {
+    border: 1px solid red;
+    margin: 10px;
+}
+
+/*Selector de etiqueta*/
+header {
+    background: blue;
+}
+
+/*Selector de etiqueta*/
+section {
+    background: purple;
+}
+
+/*Selector descendente,como una cascada sobre los elementos de html*/
+article h3 {
+    color: green;
+}
+
+/*Selectores de clase, se agregan en el atributo class del tag*/
+.tittle-a {
+    background: yellow;
+}
+
+.tittle-b {
+    background: salmon;
+}
+
+/*Selector de id*/
+#header {
+    border: 3px solid black;
+}
+
+#portada {
+    border: 3px solid orange;
+}
+
+#guitarras {
+    border: 3px solid brown;
+}
+
