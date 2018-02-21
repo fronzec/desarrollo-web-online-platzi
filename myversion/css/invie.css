@@ -27,6 +27,14 @@ body {
     margin: 0;
 }
 
+button {
+    border: none;
+    border-radius: 5px;
+    background: #fd324e;
+    color: white;
+    padding: 7px;
+}
+
 .titulo {
     font-family: 'Montserrat', sans-serif;
     font-size: 80px;
@@ -66,6 +74,8 @@ body {
 .menu {
     font-size: 24px;
     display: inline-block;
+    position: absolute;
+    right: 0;
 }
 
 .menu li {
@@ -78,7 +88,7 @@ body {
 }
 
 .header {
-
+    position: relative;
 }
 
 .contenedor {
@@ -89,8 +99,9 @@ body {
 .guitarra {
     margin: 10px;
     padding: 10px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     border: 1px solid #1F313C;
+    border-radius: 8px;
 }
 
 .guitarra ol {
@@ -99,10 +110,14 @@ body {
 
 .derecha {
     float: right;
+    position: relative;
+    top: -127px;
 }
 
 .izquierda {
     float: left;
+    position: relative;
+    top: 80px;
 }
 
 .contenedor-guitarra-a {
