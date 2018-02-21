@@ -1,3 +1,31 @@
+* {
+    /*width: tamaño;*/
+    /*height: tamaño;*/
+    /*
+    arriba derecha abajo izquierda
+    En orden de las manecillas del reloj
+    padding: 10px;
+    padding: 10px 15px 20px 10px;
+    */
+    /*padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-right: 15px;*/
+    padding: 10px;
+    /*
+    arriba derecha abajo izquierda
+    En orden de las manecillas del reloj
+    margin: 10px;
+    margin: 10px 15px 20px 10px;
+    */
+    /*margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    margin-right: 15px;*/
+    margin: 10px;
+
+    border: 2px solid red;
+}
 body {
     font-family: 'Allerta', sans-serif;
 }
@@ -31,4 +59,13 @@ body {
 
 .menu {
     font-size: 24px;
+    display: inline-block;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.logotipo {
+    display: inline-block;
 }
