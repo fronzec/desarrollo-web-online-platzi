@@ -15,32 +15,33 @@
 <body>
 <!-- Agregar los estilos dentro del tag-->
 <!--<header id="header" style="background: blue">-->
-<header id="header" class="header contenedor"><!-- header -->
-    <figure class="logotipo"><!-- logotipo -->
-        <img src="./images/invie.png" width="186" height="60" alt="Invie logotipo">
-    </figure>
-    <nav class="menu"><!--menu-->
-        <ul><!--Unordered list-->
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="#guitarras">Guitarras</a><!--Para invocar un id usamos #-->
-            </li>
-            <li>
-                <a href="./precios/precios.html">Precios</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<section id="portada" class="portada "><!-- portada-->
+<section id="portada" class="portada background"><!-- portada-->
+    <header id="header" class="header contenedor"><!-- header -->
+        <figure class="logotipo"><!-- logotipo -->
+            <img src="./images/invie.png" width="186" height="60" alt="Invie logotipo">
+        </figure>
+        <nav class="menu"><!--menu-->
+            <ul><!--Unordered list-->
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#guitarras">Guitarras</a><!--Para invocar un id usamos #-->
+                </li>
+                <li>
+                    <a href="./precios/precios.html">Precios</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <div class="contenedor"><!-- Solo sirve para efectos visuales -->
-        <h1 class="titulo">Guitarras Inviesibles</h1><!--titulo-->
+        <h1 class="titulo">Guitarras <span>invie</span>sibles</h1><!--titulo-->
         <!--resumen-->
         <h3 class="tittle-a">
             Sé la estrella de rock que siempre quisiste ser
         </h3>
-        <button class="button">Conoce más</button><!--boton-->
+        <!--<button class="button">Conoce más</button>boton-->
+        <a class="button" href="#guitarras">Conoce más</a><!--boton-->
     </div>
 </section>
 <section id="guitarras" class="guitarras contenedor"><!--Guitarras-->
@@ -58,7 +59,7 @@
         </div>
     </article>
     <!--guitarra 2-->
-    <article class="guitarra">
+    <article class="guitarra b">
         <img class="izquierda" src="images/invie-classic.png" alt="Guitarra Invie Classic" width="350"/>
         <div class="contenedor-guitarra-b">
             <h3 class="tittle-b">Invie Classic</h3>
@@ -75,7 +76,7 @@
         <div class="contacto">
             <img src="images/invie-white.png" alt="logotipo blanco"/>
             <a href="tel:+525539485358"><strong>Telefono</strong> <span>123456</span></a>
-            <a href="mailto:efloresambrosio@gmail.com"><strong>Email</strong> <span>efloresambrosio@gmail.com</span></a>
+            <a href="mailto:efloresambrosio@gmail.com"><strong>Email</strong> <span>contacto@gmail.com</span></a>
         </div>
         <form class="formulario">
             <div class="col1">
